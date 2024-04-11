@@ -1,0 +1,28 @@
+body{
+    background-color: #222222;
+    color: white;
+}
+
+.navbar {
+    background-color: #222222;
+    color: white;
+}
+
+.card {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-caption-textbox {
+    background-color: #00000078;
+}
+
+.footer {
+    color: white;
+    background-color:#3e3e3e;
+}

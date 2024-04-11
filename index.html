@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Link til eget stylesheet -->
+    <link rel="stylesheet" href="bootstrap-style.css">
+
+    <title>The Movie Zone</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><i class="bi bi-film m-3"></i>The Movie Zone</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movie genres
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="action.html">Action</a></li>
+                  <li><a class="dropdown-item" href="comedy.html">Comedy</a></li>
+                  <li><a class="dropdown-item" href="drama.html">Drama</a></li>
+                  <li><a class="dropdown-item" href="musical.html">Musical</a></li>
+                  <li><a class="dropdown-item" href="science-fiction.html">Science Fiction</a></li>
+                  <li><a class="dropdown-item" href="thriller.html">Thriller</a></li>
+                </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CAROUSEL SECTION -->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/drive.jpg" class="d-block w-100" alt="drive">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption-textbox">
+                    <h5>Drive (2011)</h5>
+                    <p>Driver is a skilled Hollywood stuntman who moonlights as a getaway driver for criminals. Though he projects an icy exterior, lately he's been warming up to a pretty neighbor named Irene and her young son, Benicio. When Irene's husband gets out of jail, he enlists Driver's help in a million-dollar heist. The job goes horribly wrong, and Driver must risk his life to protect Irene and Benicio from the vengeful masterminds behind the robbery.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/the-dark-knight.jpg" class="d-block w-100" alt="the dark knight">
+            <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption-textbox">
+                    <h5>The Dark Knight (2008)</h5>
+                    <p>Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/pulp-fiction.jpg" class="d-block w-100" alt="pulp fiction">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption-textbox">
+                <h5>Pulp Fiction (1994)</h5>
+                <p>A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/ex-machina.jpg" class="d-block w-100" alt="ex machina">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption-textbox">
+                <h5>Ex Machina (2015)</h5>
+                <p>Caleb, a 26 year old programmer at the world's largest internet company, wins a competition to spend a week at a private mountain retreat belonging to Nathan, the reclusive CEO of the company. But when Caleb arrives at the remote location he finds that he will have to participate in a strange and fascinating experiment in which he must interact with the world's first true artificial intelligence, housed in the body of a beautiful robot girl.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- TEXT SECTION -->
+
+      <div class="container mt-5 mb-5">
+        <h1>The Movie Zone</h1>
+        <p>
+            Welcome to "The Movie Zone" – your immersive sanctuary in the boundless universe of cinema! Embark on a thrilling odyssey through the ever-evolving landscape of film, where each visit unveils a treasure trove of cinematic wonders waiting to be discovered. Picture yourself stepping into a realm where stories transcend time and space, where characters leap off the screen and into your heart, and where emotions intertwine with imagination to create unforgettable experiences.
+            
+            At "The Movie Zone," we celebrate the artistry, diversity, and magic of cinema in all its forms. Whether you're a seasoned cinephile seeking the latest indie gems or a curious explorer delving into the world of movies for the first time, our platform offers a rich tapestry of content to cater to every taste and interest. From blockbuster spectacles that dazzle the senses to intimate character studies that touch the soul, our curated selection ensures that there's something for everyone.
+            
+            But "The Movie Zone" is more than just a repository of films – it's a vibrant community where movie lovers from all walks of life come together to share their passion, insights, and enthusiasm for the silver screen. Engage in lively discussions with fellow cinephiles, exchange recommendations, and participate in themed events and challenges that celebrate the rich tapestry of cinematic history.
+            
+            Step behind the curtain and explore the inner workings of the industry with exclusive interviews, behind-the-scenes features, and in-depth analyses that offer a glimpse into the creative process behind your favorite films. Uncover the stories behind the stories, learn about the visionaries who shape our cinematic landscape, and gain a newfound appreciation for the craft that goes into crafting every frame.
+            
+            So, whether you're seeking escapism, enlightenment, or simply a bit of entertainment, "The Movie Zone" invites you to immerse yourself in the magic of cinema like never before. Join us on a journey of discovery, inspiration, and wonder as we explore the limitless possibilities of the silver screen together. Welcome to your new home at "The Movie Zone" – where every frame tells a story, and every visit promises a cinematic adventure like no other.</p>
+      </div>
+
+      <!-- GENRE SECTION -->
+
+      <div class="container mt-5 mb-5">
+        <h1>Genres</h1>
+      </div>
+
+      <div class="container justify-content-center">
+        <div class="row g-2 justify-content-center">
+
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card mb-5">
+                    <img src="images/genres/action.jpg" class="card-img-top d-flex" alt="Action">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="action.html">See all in Action</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card mb-5">
+                    <img src="images/genres/comedy.jpg" class="card-img-top d-flex" alt="Comedy">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="comedy.html">See all in Comedy</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card mb-5">
+                    <img src="images/genres/drama.jpg" class="card-img-top d-flex" alt="Drama">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="drama.html">See all in Drama</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card mb-5">
+                    <img src="images/genres/musical.jpg" class="card-img-top d-flex" alt="Musical">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="musical.html">See all in Musical</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card mb-5">
+                    <img src="images/genres/science-fiction.jpg" class="card-img-top d-flex" alt="Science Fiction">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="science-fiction.html">See all in Science Fiction</a></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 d-flex align-items-stretch">
+                <div class="card mb-5">
+                    <img src="images/genres/thriller.jpg" class="card-img-top d-flex" alt="Thriller">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="thriller.html">See all in Thriller</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+      <!-- FOOTER SECTION -->
+
+      <footer class="footer text-center text-lg-start mt-5">
+        <div class="container d-flex justify-content-center pt-5">
+            <h5>© 2024 The Movie Zone</h5>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <p>Follow us on social media:</p>
+        </div>
+        <div class="container d-flex justify-content-center pb-5">
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #ffffff00; border-color: #ffffff00; color: white;">
+            <i class="bi bi-facebook"></i>
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #ffffff00; border-color: #ffffff00; color: white;">
+            <i class="bi bi-instagram"></i>
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #ffffff00; border-color: #ffffff00; color: white;">
+            <i class="bi bi-pinterest"></i>
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #ffffff00; border-color: #ffffff00; color: white;">
+            <i class="bi bi-youtube"></i>
+          </button>
+        </div>
+      </footer>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
